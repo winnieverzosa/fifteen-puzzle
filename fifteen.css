@@ -1,0 +1,95 @@
+/**
+ *
+ * Fifteen Puzzle Project
+ *
+ * This project is a game called Fifteen Puzzle.
+ * The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide squares
+ * into the empty space. How quickly can you solve it?
+ * Enjoy!
+ *
+ * Created by Winnie C. Verzosa
+ * Website: http://winnieverzosa.com
+ * Portfolio: http://winnieverzosa.com/resume
+ * LinkedIn: https://www.linkedin.com/in/winnieverzosa
+ * GitHub: https://github.com/winnieverzosa
+ *
+ **/
+
+body, button {
+	font-size: 14pt;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+
+.navbar {
+	background-color: #009688;
+	border-radius: 0;
+	color: white;
+}
+
+p{
+	font-size: 14px;
+}
+
+/* The area that holds the 15 puzzle pieces. */
+#puzzlearea {
+	font-size: 40pt;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* This class is applied to each of the 15 puzzle pieces. */
+.puzzlepiece {
+	float: left;
+	border: 5px solid black;
+	width: 90px;
+	height: 90px;
+	position:absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+/* This class is applied to a puzzle piece that can be moved. */
+.movablepiece:hover {
+	border-color: red;
+	color: red;
+}
+
+.valid {
+	background-color: #bfb;
+}
+
+.invalid {
+	background-color: #f88;
+}
+
+.credits {
+	background-color: #E0E0E0;
+	margin-top:15px;
+	padding: 5px;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+footer{
+	background-color: #616161;
+	padding:10px;
+}
+
+a{
+	font-size: 14px;
+	color: white;
+}
+
+a:hover{
+	color: #B2DFDB;
+}

@@ -1,0 +1,77 @@
+<!--/**
+*
+* Fifteen Puzzle Project
+*
+* This project is a game called Fifteen Puzzle.
+* The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide squares
+* into the empty space. How quickly can you solve it?
+* Enjoy!
+*
+* Created by Winnie C. Verzosa
+* Website: http://winnieverzosa.com
+* Portfolio: http://winnieverzosa.com/resume
+* LinkedIn: https://www.linkedin.com/in/winnieverzosa
+* GitHub: https://github.com/winnieverzosa
+*
+**/ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fifteen Puzzle</title>
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="fifteen.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="navbar text-left">
+    <h2>Fifteen Puzzle</h2>
+</div>
+
+<div class="container">
+    <h3>How quickly can you solve it?</h3>
+    <p>
+        The goal of the fifteen puzzle is to un-jumble its fifteen squares
+        by repeatedly making moves that slide squares into the empty space.
+    </p>
+
+    <div id="puzzlearea">
+        <!-- the following are the actual fifteen puzzle pieces -->
+        <div id="square_0_0">1</div>
+        <div id="square_0_1">2</div>
+        <div id="square_0_2">3</div>
+        <div id="square_0_3">4</div>
+        <div id="square_1_0">5</div>
+        <div id="square_1_1">6</div>
+        <div id="square_1_2">7</div>
+        <div id="square_1_3">8</div>
+        <div id="square_2_0">9</div>
+        <div id="square_2_1">10</div>
+        <div id="square_2_2">11</div>
+        <div id="square_2_3">12</div>
+        <div id="square_3_0">13</div>
+        <div id="square_3_1">14</div>
+        <div id="square_3_2">15</div>
+    </div>
+
+    <p id="controls">
+        <button id="shufflebutton" class="btn btn-primary btn-lg">SHUFFLE</button>
+    </p>
+
+</div>
+
+<div class="credits">
+    <p>Developed by: Winnie Anne C. Verzosa</p>
+</div>
+<footer class="text-center">
+    <a href="http://winnieverzosa.com/pages/contact.php" target="_blank">Email</a> |
+    <a href="http://winnieverzosa.com" target="_blank">Website</a> |
+    <a href="http://winnieverzosa.com/resume" target="_blank">Portfolio</a> |
+    <a href="http://dev.winnieverzosa.com/" target="_blank">Dev Blog</a> |
+    <a href="https://www.linkedin.com/in/winnieverzosa" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/winnieverzosa" target="_blank">GitHub Repository</a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="fifteen.js" type="text/javascript"></script>
+</body>
+</html>
