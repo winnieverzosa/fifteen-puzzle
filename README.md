@@ -4,4 +4,4 @@ This project is a game called Fifteen Puzzle.
 The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide squares into the empty space.
 
 #Demo
-http://winnieverzosa.com/github/fifteen-puzzle/
+http://classyprojects.com/fifteen-puzzle/
